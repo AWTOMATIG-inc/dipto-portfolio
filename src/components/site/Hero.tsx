@@ -22,7 +22,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
             A digital ecosystem for business, creativity, innovation and social impact, blending
-            AI, strategy, storytelling and technology to power tomorrow&apos;s brands
+            AI, strategy, storytelling and technology to power tomorrow&apos;s brands.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
