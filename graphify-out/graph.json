@@ -5756,9 +5756,9 @@
       "source_file": "Hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_tsx",
-      "target": "site_ecosystemring_ecosystemring",
-      "confidence_score": 1.0
+      "target": "site_ecosystemring_ecosystemring"
     },
     {
       "relation": "imports",
@@ -5767,9 +5767,9 @@
       "source_file": "Hero.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_tsx",
-      "target": "site_particlefield_particlefield",
-      "confidence_score": 1.0
+      "target": "site_particlefield_particlefield"
     },
     {
       "relation": "contains",
@@ -5777,9 +5777,9 @@
       "source_file": "Hero.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_tsx",
-      "target": "site_hero_hero",
-      "confidence_score": 1.0
+      "target": "site_hero_hero"
     },
     {
       "relation": "imports",
@@ -11687,5 +11687,5 @@
       "source_file": "src/components/ui/sidebar.tsx"
     }
   ],
-  "built_at_commit": "80cff73a7a085c254fa9646563d660c873f8f8e2"
+  "built_at_commit": "dd6bf8a6eab1f43d7a28efea4fd702c6d57a307f"
 }
