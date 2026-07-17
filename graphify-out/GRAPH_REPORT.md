@@ -1,16 +1,16 @@
-# Graph Report - happy-hub-homepage-nextjs  (2026-07-16)
+# Graph Report - happy-hub-homepage-nextjs  (2026-07-17)
 
 ## Corpus Check
 - 73 files · ~16,117 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 534 nodes · 557 edges · 141 communities (32 shown, 109 thin omitted)
+- 535 nodes · 560 edges · 141 communities (32 shown, 109 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bb207906`
+- Built from commit: `80cff73a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -194,12 +194,12 @@ Cohesion: 0.06
 Nodes (40): cn(), AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter(), AlertDialogHeader(), AlertDialogOverlay (+32 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.05
-Nodes (39): useIsMobile(), Input, Separator, SheetContent, SheetContentProps, SheetDescription, SheetFooter(), SheetHeader() (+31 more)
+Cohesion: 0.04
+Nodes (33): AccordionContent, AccordionItem, AccordionTrigger, Avatar, AvatarFallback, AvatarImage, Checkbox, DropdownMenuCheckboxItem (+25 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
-Nodes (29): AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertTitle, alertVariants, Avatar (+21 more)
+Nodes (39): useIsMobile(), Input, Separator, SheetContent, SheetContentProps, SheetDescription, SheetFooter(), SheetHeader() (+31 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.1
@@ -238,16 +238,16 @@ Cohesion: 0.2
 Nodes (9): ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut(), ContextMenuSubContent (+1 more)
 
 ### Community 12 - "Community 12"
-Cohesion: 0.2
-Nodes (9): DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut(), DropdownMenuSubContent (+1 more)
-
-### Community 13 - "Community 13"
 Cohesion: 0.22
 Nodes (8): Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow
 
-### Community 14 - "Community 14"
+### Community 13 - "Community 13"
 Cohesion: 0.22
 Nodes (9): Custom Next.js Breaking-Changes Notice, graphify-out/GRAPH_REPORT.md, Graphify Knowledge-Graph Governance Rules, graphify-out/wiki/index.md, create-next-app, Geist Font, next/font, Next.js Project (create-next-app bootstrap) (+1 more)
+
+### Community 14 - "Community 14"
+Cohesion: 0.39
+Nodes (4): EcosystemRing(), Hero(), Particle, ParticleField()
 
 ### Community 15 - "Community 15"
 Cohesion: 0.25
@@ -262,12 +262,12 @@ Cohesion: 0.25
 Nodes (8): FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, useFormField hook, Label
 
 ### Community 18 - "Community 18"
-Cohesion: 0.38
-Nodes (4): EcosystemRing(), Hero(), Particle, ParticleField()
-
-### Community 19 - "Community 19"
 Cohesion: 0.29
 Nodes (6): Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle
+
+### Community 19 - "Community 19"
+Cohesion: 0.33
+Nodes (5): ToggleGroup, ToggleGroupContext, ToggleGroupItem, Toggle, toggleVariants
 
 ### Community 20 - "Community 20"
 Cohesion: 0.33
@@ -283,7 +283,7 @@ Nodes (6): navigationMenuTriggerStyle, Toggle, toggleVariants, ToggleGroup, Togg
 
 ### Community 23 - "Community 23"
 Cohesion: 0.4
-Nodes (4): InputOTP, InputOTPGroup, InputOTPSeparator, InputOTPSlot
+Nodes (4): Alert, AlertDescription, AlertTitle, alertVariants
 
 ### Community 24 - "Community 24"
 Cohesion: 0.5
@@ -311,15 +311,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **What is the exact relationship between `Custom Next.js Breaking-Changes Notice` and `Next.js Project (create-next-app bootstrap)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `cn()` connect `Community 0` to `Community 1`, `Community 2`, `Community 6`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 15`, `Community 16`, `Community 19`, `Community 23`?**
-  _High betweenness centrality (0.141) - this node is a cross-community bridge._
-- **Why does `Button` connect `Community 0` to `Community 9`, `Community 1`?**
+- **Why does `cn()` connect `Community 0` to `Community 1`, `Community 2`, `Community 6`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 15`, `Community 16`, `Community 18`, `Community 19`, `Community 23`?**
+  _High betweenness centrality (0.140) - this node is a cross-community bridge._
+- **Why does `Button` connect `Community 0` to `Community 9`, `Community 2`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `config` to the rest of the system?**
   _339 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._

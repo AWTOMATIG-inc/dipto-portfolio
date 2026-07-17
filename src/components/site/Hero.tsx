@@ -14,11 +14,11 @@ export function Hero() {
             CONNECT · CREATE · EMPOWER
           </div>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
-            <span style={{ color: "var(--brand-blue)" }}>Innovation</span>
+            <span style={{ color: "var(--brand-blue)" }}>Innovation.</span>
             <br />
-            <span style={{ color: "var(--brand-green)" }}>Creativity</span>
+            <span style={{ color: "var(--brand-green)" }}>Creativity.</span>
             <br />
-            <span className="text-gradient-brand">Sustainable Growth</span>
+            <span className="text-gradient-brand">Sustainable Growth.</span>
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
             A digital ecosystem for business, creativity, innovation and social impact — blending
